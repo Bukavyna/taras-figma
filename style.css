@@ -1,0 +1,604 @@
+* {
+	margin: 0;
+	border: 0;
+  box-sizing: border-box;
+	text-decoration: none;
+}
+
+
+/* Main */
+
+
+.container {
+	position: relative;
+	width: 1440px;
+	height: 900px;
+	margin: 0 auto;
+	background-color: #FEFEFE;
+	padding: 54px 0 44px 0;
+
+}
+
+/* menu is for Main, Team and Lesson */
+
+.menu {
+	position: relative;
+	width: 486px;
+	height: 44px;
+	text-align: center;
+	left: 477px;
+	background-color: #FEFEFE;
+	z-index: 2;
+}
+
+.menu-link {
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	color: black;
+}
+
+.menu-link:hover {
+	color: blue;
+}
+
+.menu-active {
+	color: blue;
+}
+
+.menu-marg {
+	position: relative;
+	margin: 0 128px;
+}
+
+.bloc {
+	position: relative;
+  background-color: #EAEBED;
+	width: 1404px;
+	height: 726px;
+	border-radius: 30px;
+	top: 32px;
+	left: 18px;
+	z-index: 1;
+}
+
+.buttons {
+	position: absolute;
+	width: 105px;
+	height: 420px;
+	left: 23px;
+	top: 171px;
+	background: #FEFEFE;
+	border-radius: 30px;
+}
+
+.folder {
+	position: absolute;
+	width: 67px;
+	height: 62px;
+	top: 33px;
+	left: 19px;
+	background: rgba(39, 133, 247, 1);
+	border-radius: 15px;
+}
+
+.folder_svg {
+	position: absolute;
+	width: 35px;
+	height: 33px;
+	top: 14px;
+	left: 17px;
+	background-color: rgba(39, 133, 247, 1);
+}
+
+.monitor {
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	top: 115px;
+	left: 38px;
+}
+
+.users {
+	position: absolute;
+	width: 35px;
+	height: 27px;
+	top: 195px;
+	left: 35px;
+}
+
+.cog {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	bottom: 53px;
+	left: 35px;
+}
+
+.cloud-shae {
+	position: absolute;
+	width: 29px;
+	height: 25px;
+	bottom: 127px;
+	left: 38px;
+}
+
+.project {
+	position: absolute;
+	width: 592px;
+	height: 130px;
+	border-radius: 30px;
+	top: 80px;
+	left: 158px;
+	background: #FEFEFE;
+	padding: 37px 42px;
+}
+
+.company {
+	position: absolute;
+	width: 583px;
+	height: 130px;
+	border-radius: 30px;
+	top: 80px;
+	right: 34px;
+	background: #FEFEFE;
+	padding: 37px 42px;
+}
+
+.description {
+	position: absolute;
+	width: 732px;
+	height: 194px;
+	border-radius: 30px;
+	top: 244px;
+	left: 158px;
+	background: #FEFEFE;
+	padding: 42px 42px;
+}
+
+.team-lorem {
+	position: absolute;
+	width: 732px;
+	height: 194px;
+	border-radius: 30px;
+	left: 158px;
+	bottom: 72px;
+	background: #FEFEFE;
+}
+
+.data {
+	position: absolute;
+	width: 447px;
+	height: 410px;
+	border-radius: 30px;
+	right: 34px;
+	bottom: 72px;
+	background: #FEFEFE;
+}
+
+.text-18-700 {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	color: #B1B1B1;
+}
+
+.text-24-700 {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	color: #000000;
+}
+
+.team-img {
+	position: relative;
+	width: 120px;
+	height: 138px;
+	left: 42px;
+	top: 28px;
+}
+
+.data-2 {
+	position: absolute;
+	width: 120px;
+	height: 115px;
+	left: 42px;
+	top: 34px;
+}
+
+.box {
+	position: absolute;
+	width: 495px;
+	height: 97px;
+	top: 34px;
+	right: 26px;
+}
+
+.box-1 {
+	position: absolute;
+	width: 366px;
+	height: 198px;
+	top: 174px;
+	left: 42px;
+}
+
+
+/* Team */
+
+
+.bloc-1 {
+	position: absolute;
+	width: 1366px;
+	height: 742px;
+	left: 37px;
+	top: 107px;
+
+	background: #EAEBED;
+	border-radius: 41px;
+}
+
+.rectangle{
+	position: absolute;
+	width: 1321px;
+	height: 325px;
+	margin: 46px 0 0 23px;
+}
+
+.box-team {
+	width: 300px;
+	height: 325px;
+	border-radius: 41px;
+	background-color: #FEFEFE;
+	float: left;
+}
+
+.box-team:hover {
+	background-color: blue;
+}
+
+.top {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	top: 51px;
+	left: 96px;
+	border-radius: 50px;
+}
+
+.bt1 {
+	margin: 0 40px 0 0;
+}
+
+.bt2 {
+	margin: 0 40px 0 0px;
+}
+
+.bt3 {
+	margin: 0 41px 0 0;
+}
+
+.rectangle-1 {
+	position: relative;
+	width: 1321px;
+	height: 278px;
+	top: 414px;
+	left: 23px;
+	background-color: #EAEBED;
+}
+
+.box-team1 {
+	width: 292px;
+	height: 278px;
+	border-radius: 41px;
+	background-color: #FEFEFE;
+	float: left;
+}
+
+.box-team1:hover {
+	background-color: blue;
+}
+
+.bottom {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	top: 20px;
+	left: 96px;
+	border-radius: 50px;
+}
+
+.bt5 {
+  margin: 0 51px 0 0;
+}
+
+.bt6 {
+  margin: 0 51px 0 0;
+}
+
+.bt7 {
+  margin: 0 51px 0 0;
+}
+
+.andy-top {
+	position: relative;
+	width: 232px;
+	height: 64px;
+	left: 28px;
+	top: 53px;
+
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+	color: #000000;
+}
+
+.it {
+	position: relative;
+	width: 232px;
+	height: 64px;
+	left: 28px;
+	top: 25px;
+
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #C5C5C5;
+}
+
+.sept {
+	position: relative;
+	width: 232px;
+	height: 64px;
+	left: 28px;
+	top: 28px;
+
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #C5C5C5;
+}
+
+.andy-1 {
+	position: relative;
+	width: 232px;
+	height: 38px;
+	left: 26px;
+	top: 28px;
+
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+	color: #000000;
+}
+
+.it-1 {
+	position: relative;
+	width: 232px;
+	height: 33px;
+	left: 28px;
+	top: 22px;
+
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #C5C5C5;
+}
+
+.sept-1 {
+	position: relative;
+	width: 232px;
+	height: 33px;
+	left: 28px;
+	top: 55px;
+
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #C5C5C5;
+}
+
+
+/* lessons */
+
+
+
+.id {
+	position: relative;
+	width: 1090px;
+	height: 40px;
+	left: 138px;
+	top: 138px;
+/*	background-color: #EAEBE2; */
+}
+
+.id-link{
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+	left: 0px;
+	top: 6px;
+	margin: 0 0;
+	color: #323232;
+}
+
+.id-0{
+	margin: 0 147px 0 0;
+}
+
+.id-1 {
+	margin: 0 146px 0 0;
+}
+
+.id-2 {
+	margin: 0 146px 0 0;
+}
+
+.id-3 {
+	margin: 0 147px 0 0;
+}
+
+.basic {
+	position: relative;
+	width: 1194px;
+	height: 64px;
+/*	background: #EAEBE1; */
+	border-radius: 21px;
+}
+
+.basic:hover {
+	background-color: #FEFEFE;
+}
+
+.b1 {
+	position: relative;
+  top: 180px;
+	left: 86px;
+
+}
+
+.b2 {
+	position: relative;
+	top: 195px;
+	left: 86px;
+}
+
+.b3 {
+	position: relative;
+	top: 210px;
+	left: 86px;
+}
+
+.b4 {
+	position: relative;
+	top: 225px;
+	left: 86px;
+}
+
+.b5 {
+	position: relative;
+	top: 240px;
+	left: 86px;
+}
+
+.compl {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	border-radius: 8px;
+	top: 15px;
+	left: 95px;
+	background-color: #FEFEFE;
+	padding: 8px 3px;
+
+	.gr {
+		width: 28px;
+		height: 19px;
+	}
+}
+
+.compl:hover {
+	background-color: blue;
+}
+
+.less {
+	position: relative;
+	left: 370px;
+}
+
+.ht {
+	position: relative;
+	width: 138px;
+	height: 40px;
+	top: -16px;
+
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: center;
+	color: #323232;
+}
+
+.ht-1 {
+	position: relative;
+	left: 540px;
+}
+
+.ht-2 {
+	position: relative;
+	left: 635px;
+}
+
+.don-1 {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	left: 1066px ;
+	top: -52px;
+	border-radius: 8px;
+	background-color: #FEFEFE;
+}
+
+.don-1:hover {
+	background-color: blue;
+}
+
+.don {
+	position: relative;
+	width: 18px;
+	height: 20px;
+  margin: 8px 7px;
+}
+
+
+/* Account */
+
+.a-1 {
+	position: absolute;
+	width: 615px;
+	height: 149px;
+	background: #FEFEFE;
+	border-radius: 30px;
+	top: 20px;
+	left: 158px;
+}
+
+.a-2 {
+	position: absolute;
+	width: 618px;
+	height: 615px;
+	background: #FEFEFE;
+	border-radius: 30px;
+	top: 189px;
+	left: 159px;
+}
